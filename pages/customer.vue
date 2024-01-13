@@ -9,5 +9,6 @@ export default {
   head: {
     title: "Customer Page",
   },
+  layout: "dashboard",
 };
 </script>
