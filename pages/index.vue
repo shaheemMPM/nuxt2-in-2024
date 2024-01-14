@@ -10,5 +10,8 @@ export default Vue.extend({
   head: {
     title: "Main page",
   },
+  mounted() {
+    console.log("state from index.vue: ", this.$store.state);
+  },
 });
 </script>
